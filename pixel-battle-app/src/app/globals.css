@@ -25,3 +25,30 @@ body {
     text-wrap: balance;
   }
 }
+
+.main-wrapper {
+  pointer-events: none;
+  height: 100%;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  flex-direction: column;
+}
+
+.sidebar {
+  margin-left: 1rem;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 8px;
+}
