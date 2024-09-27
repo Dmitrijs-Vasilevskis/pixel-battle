@@ -112,7 +112,6 @@ const AuthentificationStyled = styled.div`
   }
 
   button {
-    max-width: 80%;
     pointer-events: auto;
   }
 `;
